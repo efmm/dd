@@ -28,8 +28,8 @@ jobs:
         if: env.PAT
         with:
           type: now
-          from_branch: master
-          target_branch: main
+          from_branch: passerby-b
+          target_branch: jddj
           github_token: ${{ secrets.PAT }}
           
   # 我自己同步到gitee使用，其他人可忽略
